@@ -15,7 +15,7 @@ declaration:
   
   -int showMenu(startX, startY, spacing, numberOfItens, indicatorSize, arrayOfStrings, arrowString);
 
-Simple menu creator for windows console, how to use:
+HOW TO USE
 
   -Use W,S, DownKey or UpKey for move between options;
   
