@@ -73,8 +73,8 @@ int showMenu(int _xoffset, int _yoffset,int _spacing, int _nItens, int _aLen,con
 
 int main()
 {
-    const char *teste[4] = {"First", "Second", "Thirty", "Fourth"};
-    int result = showMenu(5,4,2,4,4,teste,"--> ");
+    const char *test[4] = {"First", "Second", "Thirty", "Fourth"};
+    int result = showMenu(5,4,2,4,4,test,"--> ");
     gotoxy(0,0);
     cout << "Option selected: " << result << endl;
     getch();
