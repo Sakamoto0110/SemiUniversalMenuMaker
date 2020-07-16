@@ -1,15 +1,19 @@
 (WINDOWS ONLY, FOR NOW) 
+
 Required headers:
+
 windows.h
+
 conio.h
 
 Required function declaration:
 
-void gotoxy(int x, int y);
+-void gotoxy(int x, int y);
 
 
 declaration:
-  int showMenu(startX, startY, spacing, numberOfItens, indicatorSize, arrayOfStrings, arrowString);
+  
+  -int showMenu(startX, startY, spacing, numberOfItens, indicatorSize, arrayOfStrings, arrowString);
 
 Simple menu creator for windows console, how to use:
 
@@ -29,4 +33,5 @@ Simple menu creator for windows console, how to use:
   
   
 TODO
+
   -Add linux suppport
